@@ -1,0 +1,18 @@
+GET http://localhost:8080/api/v1/symptoms
+###
+POST http://localhost:8080/api/v1/diagnosis
+Content-Type: application/json
+
+{
+  "gender":"male",
+  "yearOfBirth":"30",
+  "patientName":"John Doe",
+  "symptoms": [{
+    "id": "1",
+    "description": "Fever"
+  },
+  {
+    "id": "2",
+    "description": "Cough"
+  }]
+}
