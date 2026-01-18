@@ -8,6 +8,7 @@ A web-based app for preliminary medical diagnosis using ApiMedic API. Built with
 - ApiMedic requires signup for credentials (sandbox mode used). Replace placeholders in `application.properties`.
 
 - I am mocking the APIMEDIC endpoints since I was unable to signup on `apimedic.com`. 
+- To I have added a configuration `mockEnabled=true` to allow me to mock the apimedic. In order to disable the mocking, update `mockEnable=false`
 
 ```
 This apimedic.com page can’t be found
